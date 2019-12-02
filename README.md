@@ -19,7 +19,7 @@ These steps assume that you [have installed git locally](https://www.atlassian.c
 
 6. Push your local branch to your distant repo. `git push origin <the-name-of-your-branch>`
 
-7. Open a new Pull Request (PR): https://github.com/zaccharieramzi/git-tuto/compare
+7. Open a new Pull Request (PR): https://github.com/zaccharieramzi/git-tuto/compare. You have an example PR [here](https://github.com/zaccharieramzi/git-tuto/pull/1).
 
 8. Iterate with feedback.
 
