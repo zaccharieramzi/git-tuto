@@ -11,7 +11,7 @@ These steps assume that you [have installed git locally](https://www.atlassian.c
 
 2. Clone your forked repo locally. `git clone git@github.com:<your-github-handle>/git-tuto.git`
 
-3. Add the original project as a distant repo. `git remote add https://github.com/zaccharieramzi/git-tuto.git`
+3. Add the original project as a distant repo. `git remote add master https://github.com/zaccharieramzi/git-tuto.git`
 
 4. Create a new branch to add your name to the list of people who have participated to the tutorial. `git checkout -b <your-name-or-pseudonym>`
 
