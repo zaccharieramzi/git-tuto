@@ -17,10 +17,12 @@ These steps assume that you [have installed git locally](https://www.atlassian.c
 
 5. Add your name to the `participants.csv` file. `echo '<your-name-or-pseudonym>,\n' >> participants.csv`
 
-6. Push your local branch to your distant repo. `git push origin <the-name-of-your-branch>`
+6. Stage and commit your changes. `git add participants.csv && git commit -m'Added <your-name-or-pseudonym> to the participants file'`
 
-7. Open a new Pull Request (PR): https://github.com/zaccharieramzi/git-tuto/compare. You have an example PR [here](https://github.com/zaccharieramzi/git-tuto/pull/1).
+7. Push your local branch to your distant repo. `git push origin <the-name-of-your-branch>`
 
-8. Iterate with feedback.
+8. Open a new Pull Request (PR): https://github.com/zaccharieramzi/git-tuto/compare. You have an example PR [here](https://github.com/zaccharieramzi/git-tuto/pull/1).
 
-9. Once the PR is (squashed and) merged, don't forget to update your local repo (`git checkout master && git pull upstream master`) and your distant repo (`git push origin master`).
+9. Iterate with feedback.
+
+10. Once the PR is (squashed and) merged, don't forget to update your local repo (`git checkout master && git pull upstream master`) and your distant repo (`git push origin master`).
