@@ -26,3 +26,8 @@ These steps assume that you [have installed git locally](https://www.atlassian.c
 9. Iterate with feedback.
 
 10. Once the PR is (squashed and) merged, don't forget to update your local repo (`git checkout master && git pull upstream master`) and your distant repo (`git push origin master`).
+
+## Contributing
+
+You are free to suggest improvements both on the presentation and on this tutorial using the [Issues of this repo](https://github.com/zaccharieramzi/git-tuto/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+A first good contribution might be for example to add the Contributing guidelines.
