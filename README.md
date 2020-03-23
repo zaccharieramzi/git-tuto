@@ -36,7 +36,7 @@ CI is a process that can be best described as the continuous testing of the code
 This makes sure that a new addition to the codebase does not alter unexpectedly the behaviour of the code.
 
 Many tools exist but we will here use only Travis CI.
-To set it up you just need to register to their website, add your repo to the list of watched repositories, and then add a travis config file to your project.
+To set it up you just need to register to [their website](https://travis-ci.com/), add your repo to the list of watched repositories, and then add a travis config file to your project.
 The travis config file is a [YAML file](.travis.yml) containing a list of instructions on how to run the tests correctly.
 
 ### Steps
