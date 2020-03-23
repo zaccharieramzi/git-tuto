@@ -27,6 +27,32 @@ These steps assume that you [have installed git locally](https://www.atlassian.c
 
 10. Once the PR is (squashed and) merged, don't forget to update your local repo (`git checkout master && git pull upstream master`) and your distant repo (`git push origin master`).
 
+## Continuous Integration tutorial
+
+### Overview of Continuous Integration
+Once you have understood how the GitHub flow works, you can try to take part in the continuous integration (CI) tutorial.
+But first, what is CI?
+CI is a process that can be best described as the continuous testing of the code as parts are added to it.
+This makes sure that a new addition to the codebase does not alter unexpectedly the behaviour of the code.
+
+Many tools exist but we will here use only Travis CI.
+To set it up you just need to register to their website, add your repo to the list of watched repositories, and then add a travis config file to your project.
+The travis config file is a [YAML file](.travis.yml) containing a list of instructions on how to run the tests correctly.
+
+### Steps
+This assumes you have taken the steps 1-4 of the git tutorial.
+
+1. Add a file <your-name>_function.py to the [functions](ci_tutorial/simple_functions) folder.
+
+2. In this file, write a simple function that can be easily tested.
+An example is my [function file](ci_tutorial/simple_functions/zac_function.py).
+The function doesn't have to be about numbers but can be about all the built-in data structures python provides.
+
+3. Add a corresponding unit test for this new function.
+An example of a corresponding unit test is [mine](ci_tutorial/tests/simple_functions_test/zac_function_test.py).
+
+4. Perform the steps 6-10 of the git-tutorial with the slight exception that you need to have a more suited commit message.
+
 ## Contributing
 
 You are free to suggest improvements both on the presentation and on this tutorial using the [Issues of this repo](https://github.com/zaccharieramzi/git-tuto/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
