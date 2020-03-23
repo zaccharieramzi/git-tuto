@@ -1,0 +1,7 @@
+language: python
+install:
+  - pip install pytest
+  - pip install .
+
+script:
+  - pytest ci_tutorial
