@@ -1,6 +1,6 @@
 # Git Tutorial
 
-[![Build Status](https://travis-ci.com/zaccharieramzi/git-tuto.svg?branch=master)](https://travis-ci.com/zaccharieramzi/git-tuto)
+![GitHub Workflow Build Status](https://github.com/zaccharieramzi/git-tuto/workflows/Continuous%20testing/badge.svg)
 
 This repository will help you practice the basics of the GitHub flow and how to work on open source projects.
 
